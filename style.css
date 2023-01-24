@@ -7,8 +7,9 @@ body{
     height: 100vh;
     justify-content: center;
     background: url("https://images.unsplash.com/photo-1527489377706-5bf97e608852?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1559&q=80");
-    /* background-size: 2000px 1000px; */
     background-size: cover;
+    /* stops content from moving over to new line when size of screen changes */
+    overflow: hidden;
 
 }
 
