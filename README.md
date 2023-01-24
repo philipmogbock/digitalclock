@@ -18,3 +18,6 @@ css
 
 
 javascript
+-struggled a little with getElementsByClassName, didnt know you had to specify the index 
+-used Date() contructor for the first time
+-used setTimeout for the first time 
