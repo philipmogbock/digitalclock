@@ -22,8 +22,8 @@ function updateClock() {
         h="0"+h;
     }
     //ternary operator, does the same thing as if logic above
-    m = m < 10 ? "0" + "0" + m : m;
-    s = s < 10 ? "0" + "0" + s : s;
+    m = m < 10 ? "0" + m : m;
+    s = s < 10 ? "0" + s : s;
 
     // change the time texts to reflect what theyre called in our logic
     hourEl.innerText = h;
